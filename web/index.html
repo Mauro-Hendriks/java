@@ -8,10 +8,57 @@
     <title>F1M2-javascript</title>
 </head>
 <body>
-    <h1>museam online</h1>
+    <h1 id="Grey">museam online</h1>
+    <p id="geel">maak achtergrond geel</p>
+    <p id="groen">maak de tekst groen</p>
+    <p id="reset">maak alles ongedaan</p>
+    <p id="toets">druk op een toets</p>
+
     <script>
-        console.log("hallo wereld");
         
+        const geel = document.getElementById("geel");
+
+        geel.addEventListener('click',Geel);
+
+        function Geel(){
+            document.body.style.backgroundColor = "yellow";
+        }
+
+        const Grey = document.getElementById("Grey");
+
+        Grey.addEventListener('click',mkGrey);
+
+        function mkGrey(){
+            document.body.style.backgroundColor = "grey";
+            document.body.style.color = "white";
+        }
+
+        const groen = document.getElementById("groen");
+
+        groen.addEventListener('click',Groen);
+
+        function Groen(){
+            document.body.style.color = "green";
+        }
+
+        const reset = document.getElementById("reset");
+
+        reset.addEventListener('click',mkReset);
+
+        function mkReset(){
+            document.body.style.backgroundColor = "cornflowerblue";
+            document.body.style.color = "black";
+        }
+
+        const toets = document.getElementById("toets");
+
+        toets.addEventListener('keyup',Toets);
+
+        function Toets(){
+            document.body.style.backgroundColor = "red";
+            document.body.style.color = "blue";
+        }
     </script>
+
 </body>
 </html>
