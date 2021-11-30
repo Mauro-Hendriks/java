@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foto gallerij</title>
+</head>
+<body>
+    <h1>Slideshow gallerij</h1>
+    <div class="button" onclick="onClickNext()">Next image</div>
+    <div class="button" onclick="onClickPrev()">Previous image</div>
+    <img id="img" src="http://placekitten.com/800/600" alt=" een kat">
+
+    <script> 
+        var position = 0;
+        
+        var img1 ="http://placekitten.com/800/600"
+        var img2 ="http://placekitten.com/800/602"
+        var img3 ="http://placekitten.com/800/604"
+        var img4 ="http://placekitten.com/800/606"
+        var img5 ="http://placekitten.com/800/611"
+        var img6 ="http://placekitten.com/800/601"
+        var img7 ="http://placekitten.com/800/603"
+        var img8 ="http://placekitten.com/800/605"
+        var img9 = "http://placekitten.com/800/607"
+        var img10 ="http://placekitten.com/800/609"
+
+        var imgElement = document.getElementById("img");
+
+        function onClickNext(){
+    
+            position = position + 1;
+
+            if(position >= 9){
+                position = 0;
+            }
+
+            setImage();
+        }
+
+        function onClickPrev(){
+            
+            position = position - 1;
+
+            if(position == -1){
+                position = 9;
+            }
+
+            setImage();
+        }
+
+        function setImage(){
+
+            if(position == 0){
+                imgElement.src = img1
+            }
+            
+            else if(position == 1){
+                imgElement.src = img2
+            }
+            
+            else if(position == 2){
+                imgElement.src = img3
+            }
+            
+            else if(position == 3){
+                imgElement.src = img4
+            }
+            
+            else if(position == 4){
+                imgElement.src = img5
+            }
+            
+            else if(position == 5){
+                imgElement.src = img6
+            }
+            
+            else if(position == 6){
+                imgElement.src = img7
+            }
+            
+            else if(position == 7){
+                imgElement.src = img8
+            }
+            
+            else if(position == 8){
+                imgElement.src = img9
+            }
+            
+            else if(position == 9){
+                imgElement.src = img10
+            }
+        }
+    </script>
+</body>
+</html>

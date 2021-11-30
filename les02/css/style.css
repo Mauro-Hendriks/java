@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.button{
+    background-color: cornflowerblue;
+    padding: 5px;
+    margin: 5px;
+    width: 70px;
+    color: white;
+}
+
+.button:hover{
+    background-color: rgb(132, 167, 233);
+}
