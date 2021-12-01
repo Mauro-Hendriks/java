@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(240, 169, 169);
+}
+
+#Koelkast{
+    background-color: lemonchiffon;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+section{
+    border: 2px solid black;
+    padding: 10px;
+    min-height: 200px;
+}
+
+h2{
+    margin: 0 0 10px 0;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: coral;
+    color: lavender;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+.rood{
+    color: red;
+}
+
+.groen{
+    color: green;
+}
