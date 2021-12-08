@@ -1,0 +1,57 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: cornflowerblue;
+}
+
+#myImage{
+    padding: 20px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+#info{
+    padding: 20px;
+}
+
+#container{
+    background: rgb(141, 173, 233);
+    width:700px;
+    margin: auto;
+    padding: 40px;
+    
+}
+
+.flex-container {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .flex-container {
+    background-color: #ADD8E6; 
+    color: black; 
+
+  }
+  
+  .flex-container:hover {
+    background-color: #d6ecf3;
+    color: black;
+  }
