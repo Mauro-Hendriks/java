@@ -3,7 +3,7 @@
 ## javascript
 
 ### [test les](https://33409.hosts1.ma-cloud.nl/f1m2js/les01/)
-### [les 02](https://33409.hosts1.ma-cloud.nl/f1m2js/les02/)
-### [les 03](http://33409.hosts1.ma-cloud.nl/f1m2js/les03/)
-### [les 04](http://33409.hosts1.ma-cloud.nl/f1m2js/les04/)
-### [les 05](http://33409.hosts1.ma-cloud.nl/f1m2js/les05/)
+### [foto gallerij](https://33409.hosts1.ma-cloud.nl/f1m2js/les02/)
+### [boodschappen sorteren](http://33409.hosts1.ma-cloud.nl/f1m2js/les03/)
+### [Tabel](http://33409.hosts1.ma-cloud.nl/f1m2js/les04/)
+### [Tentoonstelling](http://33409.hosts1.ma-cloud.nl/f1m2js/les05/)
