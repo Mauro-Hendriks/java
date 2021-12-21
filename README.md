@@ -7,3 +7,4 @@
 ### [boodschappen sorteren](http://33409.hosts1.ma-cloud.nl/f1m2js/les03/)
 ### [Tabel](http://33409.hosts1.ma-cloud.nl/f1m2js/les04/)
 ### [Tentoonstelling](http://33409.hosts1.ma-cloud.nl/f1m2js/les05/)
+### [seizoenen](https://33409.hosts1.ma-cloud.nl/f1m2js/les06/)

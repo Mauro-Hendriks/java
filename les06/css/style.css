@@ -1,0 +1,43 @@
+body{
+    background: grey;
+}
+
+
+#container{
+    background: cornflowerblue;
+    width: 700px;
+    height: 500px;
+    margin: 100px auto auto auto;
+}
+
+#myTitle,#myImage,#myNav{
+    margin-left: 20px;
+}
+
+#myNav{
+    margin-top: 10px
+}
+
+#flex-container {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  #flex-container {
+    background-color: #ADD8E6; 
+    color: black; 
+
+  }
+  
+  #flex-container:hover {
+    background-color: #d6ecf3;
+    color: black;
+  }
+
